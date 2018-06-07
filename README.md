@@ -1,2 +1,2 @@
 # emakhov.github.io
-Small personal website
+Personal website and portfolio
