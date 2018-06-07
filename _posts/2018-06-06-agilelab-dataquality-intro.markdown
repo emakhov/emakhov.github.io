@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Agile Lab Data Quality: Small analytical framework for Big Data environments"
+title:  "Agile Lab Data Quality: Small analytical framework for Big Data"
 date:   2018-06-06 10:00:00 +0200
 categories: agilelab dataquality framework
 ---
@@ -24,3 +24,7 @@ With DQ you are allowed to:
 - Perform trend analysis, based on previous results.
 - Transform results in order to make reports that you like.
 - Save results on HDFS in multiple formats (csv, avro, parquet) or/and datastore etc.
+
+Source code and documentation you can on GitHub:
+[Original repository](https://github.com/agile-lab-dev/DataQuality)
+[My fork of the project](https://github.com/emakhov/agilelab-data-quality)
