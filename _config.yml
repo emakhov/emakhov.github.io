@@ -16,7 +16,8 @@
 title: Egor Makhov | ML / Data Engineer
 email: e.makhov@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is my porfolio and small blog about my different adventures in the computer science world.
+  This is my porfolio and small blog about different adventures in the computer science world.
+  Competely infused with math and programming.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  emakhov
