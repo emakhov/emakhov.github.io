@@ -6,3 +6,4 @@ categories: python jupyter notebook
 ---
 
 Text text text
+$$a^2 + b^2 = c^2$$
