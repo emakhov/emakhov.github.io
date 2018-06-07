@@ -16,10 +16,11 @@
 title: Egor Makhov | ML / Data Engineer
 email: e.makhov@protonmain.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hi, my name is Egor Makhov and this is my personal blog and portfolio.
+  Hello, my name is Egor Makhov and this is my personal blog and portfolio.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  emakhov
+linkedin_username: egor-makhov
 
 # Build settings
 markdown: kramdown
