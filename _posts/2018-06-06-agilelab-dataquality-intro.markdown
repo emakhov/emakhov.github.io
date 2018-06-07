@@ -25,6 +25,6 @@ With DQ you are allowed to:
 - Transform results in order to make reports that you like.
 - Save results on HDFS in multiple formats (csv, avro, parquet) or/and datastore etc.
 
-Source code and documentation you can on GitHub:
+Source code and documentation you can find on GitHub:
 [Original repository](https://github.com/agile-lab-dev/DataQuality) or
-[My fork of the project](https://github.com/emakhov/agilelab-data-quality)
+[My fork](https://github.com/emakhov/agilelab-data-quality)
