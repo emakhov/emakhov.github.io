@@ -6,7 +6,3 @@ categories: python jupyter notebook
 ---
 
 Text text text
-
-{::nomarkdown}
-{% jupyter_notebook central-limit-theorem.ipynb %}
-{:/nomarkdown}
