@@ -9,7 +9,7 @@ tags: jupyter notebook
 Text text text
 $$a^2 + b^2 = c^2$$
 
-## Assignment: Центральная предельная теорема своими руками
+## Central limit theorem
 ### by Egor Makhov. Coursera 2016 
 
 ---
