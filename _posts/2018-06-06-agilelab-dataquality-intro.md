@@ -13,7 +13,6 @@ It relies entirely on Spark.
 Framework has been developed by me at [Agile Lab](http://www.agilelab.it).
 
 ![Project architecture](/assets/img/DQ2.png)
-* Main blocks of the framework *
 
 Compared to typical data quality products, this framework performs quality checks at raw level.
 It doesnt leverage any kind of SQL abstraction like Hive or Impala because they perform type checks at runtime hiding bad formatted data.
