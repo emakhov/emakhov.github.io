@@ -17,9 +17,12 @@ layout: default
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+            </a>
+            {%- if post.gh -%}
+                <a href="{{ post.gh }}">Github</a>
+            {%- endif -%}
             {{ post.subtitle}}
         </h3>
         {%- if site.show_excerpts -%}

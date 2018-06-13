@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Agile Lab Data Quality: Small analytical framework for Big Data"
+title:  "Data Quality: Small analytical framework for Big Data"
 date:   2018-06-06 10:00:00 +0200
 categories: projects scala
-subtitle: "Written by me at Agile Lab in 2017"
+subtitle: "Developed by me at Agile Lab in 2017"
+gh: https://github.com/emakhov/agilelab-data-quality
 ---
 
 DQ is a framework to build parallel and distributed quality checks on big data environments.
