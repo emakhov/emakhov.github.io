@@ -19,10 +19,12 @@ layout: default
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
-            {{ post.toast}}
           </a>
+            {{ post.subtitle}}
         </h3>
-        {{ post.excerpt }}
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
       </li>
       {%- endfor -%}
     </ul>
