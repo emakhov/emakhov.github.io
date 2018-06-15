@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Central limit theorem demo"
-subtitle: "or how to port Jupyter Notebooks"
+title:  "Demo of CLT(Central Limit Theorem) in Python"
+subtitle: "Or how to port Jupyter Notebooks to Jekyll"
 date:   2018-06-07 10:00:00 +0200
 category: [ python ]
 tags: [ jupyter, notebook ]
@@ -15,11 +15,9 @@ Notebook documents (or “notebooks”, all lower case) are documents produced b
    documents containing the analysis description and the results (figures, tables, etc..)
     as well as executable documents which can be run to perform data analysis. 
 
+So why not combine such 
 
 $$a^2 + b^2 = c^2$$
-
-## Central limit theorem
-### by Egor Makhov. Coursera 2016 
 
 ---
 *Instructions*
