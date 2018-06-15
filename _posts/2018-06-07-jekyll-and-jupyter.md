@@ -1,12 +1,21 @@
 ---
 layout: post
-title:  "Using Jupyter notebooks in Jekyll"
+title:  "Central limit theorem demo"
+subtitle: "or how to port Jupyter Notebooks"
 date:   2018-06-07 10:00:00 +0200
 category: [ python ]
 tags: [ jupyter, notebook ]
 ---
 
-Text text text
+Most of the modern data analysis work in done with Python and Jupyter notebooks.
+
+Notebook documents (or “notebooks”, all lower case) are documents produced by the Jupyter
+ Notebook App, which contain both computer code (e.g. python) and rich text elements
+  (paragraph, equations, figures, links, etc…). Notebook documents are both human-readable
+   documents containing the analysis description and the results (figures, tables, etc..)
+    as well as executable documents which can be run to perform data analysis. 
+
+
 $$a^2 + b^2 = c^2$$
 
 ## Central limit theorem
@@ -40,3 +49,7 @@ import itertools
 
 Для данного задания было выбрано распределение $\chi ^{2}$(хи-квадрат) с $k$ степенями свободы.<br>
 Функция плотности вероятности имеет вид: $\frac{(1/2)^{k/2}}{\Gamma (k/2)}x^{k/2-1}e^{-x/2}$
+
+
+### References:
+1. [Project Jupyter website](https://jupyter.org/)
