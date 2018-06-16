@@ -21,15 +21,17 @@ layout: default
                     {{ post.title | escape }}
                 </a>
                 {%- if post.gh -%}
-                <a href="{{ post.gh }}" style="margin-right: 5px;">Github</a>
+                    <a href="{{ post.gh }}" style="margin-right: 5px;">Github</a>
                 {%- endif -%}
-                {{ post.subtitle }} <br>
-                {%- for tag in post.tags -%
-                <span class="post-meta post-meta-tag">{{ tag }}</span>
-                {%- endfor -%}
+                {{ post.subtitle }}
+                <span class="tag-list">
+                    {%- for tag in post.tags -%
+                        <span class="post-meta post-meta-tag">{{ tag }}</span>
+                    {%- endfor -%}
+                </span>
             </h3>
             {%- if site.show_excerpts -%}
-            {{ post.excerpt }}
+                {{ post.excerpt }}
             {%- endif -%}
         </li>
         {%- endfor -%}
