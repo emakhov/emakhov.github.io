@@ -17,7 +17,7 @@ Notebook documents (or “notebooks”, all lower case) are documents produced b
 
 So why not combine such 
 
-$$a^2 + b^2 = c^2$$
+
 
 ---
 *Instructions*
@@ -32,6 +32,8 @@ $$a^2 + b^2 = c^2$$
 
 ---
 
+$$a^2 + b^2 = c^2$$
+
 **Решение:**
 
 
@@ -45,8 +47,8 @@ import matplotlib.pyplot as plt
 import itertools
 ```
 
-Для данного задания было выбрано распределение $\chi ^{2}$(хи-квадрат) с $k$ степенями свободы.<br>
-Функция плотности вероятности имеет вид: $\frac{(1/2)^{k/2}}{\Gamma (k/2)}x^{k/2-1}e^{-x/2}$
+Для данного задания было выбрано распределение $$\chi ^{2}$$(хи-квадрат) с $$k$$ степенями свободы.<br>
+Функция плотности вероятности имеет вид: $$\frac{(1/2)^{k/2}}{\Gamma (k/2)}x^{k/2-1}e^{-x/2}$$
 
 
 ### References:
