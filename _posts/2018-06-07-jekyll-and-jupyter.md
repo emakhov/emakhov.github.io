@@ -38,7 +38,6 @@ $$a^2 + b^2 = c^2$$
 
 
 ```python
-# подключим все необходимые модули и пропишим мэджики
 %matplotlib inline
 
 import numpy as np
