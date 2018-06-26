@@ -15,14 +15,23 @@ Notebook documents (or “notebooks”, all lower case) are documents produced b
    documents containing the analysis description and the results (figures, tables, etc..)
     as well as executable documents which can be run to perform data analysis. 
 
-So why not combine such 
+So why not combine such great tools together.
 
 
 
 ---
-*Instructions*
+*Problem instructions*
+
+In this task we have to check the work of the central limit theorem, and also work with
+ the generation of random numbers and the construction of graphs in Python.
+ 
+We will choose a certain continuous distribution (the less it looks like a normal one,
+ the more interesting). Generate a sample of 1000 from it, construct a sample histogram and
+  draw on it the theoretical distribution density of a random variable.
 
 В этом задании вам предстоит проверить работу центральной предельной теоремы, а также поработать с генерацией случайных чисел и построением графиков в Питоне.
+
+
 
 Выберите ваше любимое непрерывное распределение (чем меньше оно будет похоже на нормальное, тем интереснее; попробуйте выбрать какое-нибудь распределение из тех, что мы не обсуждали в курсе). Сгенерируйте из него выборку объёма 1000, постройте гистограмму выборки и нарисуйте поверх неё теоретическую плотность распределения вашей случайной величины.
 
@@ -34,7 +43,7 @@ So why not combine such
 
 $$a^2 + b^2 = c^2$$
 
-**Решение:**
+**Solution:**
 
 
 ```python
