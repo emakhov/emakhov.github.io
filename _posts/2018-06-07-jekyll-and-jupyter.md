@@ -15,9 +15,8 @@ Notebook documents (or “notebooks”, all lower case) are documents produced b
    documents containing the analysis description and the results (figures, tables, etc..)
     as well as executable documents which can be run to perform data analysis. 
 
-So why not combine such great tools together.
-
-
+So why not combine such great tools together. As an example, I'll adopt one of my iPython
+ notebooks, made by me during Statistics course in 2016.
 
 ---
 *Problem instructions*
@@ -29,15 +28,18 @@ We will choose a certain continuous distribution (the less it looks like a norma
  the more interesting). Generate a sample of 1000 from it, construct a sample histogram and
   draw on it the theoretical distribution density of a random variable.
 
-В этом задании вам предстоит проверить работу центральной предельной теоремы, а также поработать с генерацией случайных чисел и построением графиков в Питоне.
+For several values ​​of n (for example, 5, 10, 50), we generate 1000 samples of volume n
+ and construct the histograms of the distributions of their sample means. Using information
+  on the mean and variance of the original distribution (it can be easily found in Wikipedia),
+   calculate the values ​​of the parameters of the normal distributions, which, according to the
+    central limit theorem, approximate the distribution of sample means. Pay attention: to calculate
+     the values ​​of these parameters you need to use the theoretical mean and variance of your random
+      variable, rather than their sample estimates. Over each histogram, draw the density of the
+       corresponding normal distribution.
 
-
-
-Выберите ваше любимое непрерывное распределение (чем меньше оно будет похоже на нормальное, тем интереснее; попробуйте выбрать какое-нибудь распределение из тех, что мы не обсуждали в курсе). Сгенерируйте из него выборку объёма 1000, постройте гистограмму выборки и нарисуйте поверх неё теоретическую плотность распределения вашей случайной величины.
-
-Для нескольких значений n (например, 5, 10, 50) сгенерируйте 1000 выборок объёма n и постройте гистограммы распределений их выборочных средних. Используя информацию о среднем и дисперсии исходного распределения (её можно без труда найти в википедии), посчитайте значения параметров нормальных распределений, которыми, согласно центральной предельной теореме, приближается распределение выборочных средних. Обратите внимание: для подсчёта значений этих параметров нужно использовать именно теоретические среднее и дисперсию вашей случайной величины, а не их выборочные оценки. Поверх каждой гистограммы нарисуйте плотность соответствующего нормального распределения.
-
-Опишите разницу между полученными распределениями при различных значениях n. Как меняется точность аппроксимации распределения выборочных средних нормальным с ростом n?
+Describe the difference between the distributions obtained for different values of n. Our main task
+ will be to determine how the accuracy of the approximation of the distribution of sample means is
+  normal with increasing n.
 
 ---
 
