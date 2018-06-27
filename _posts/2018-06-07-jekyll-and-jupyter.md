@@ -11,15 +11,15 @@ Most of the modern data analysis work in done with Python and Jupyter notebooks.
 
 Notebook documents (or “notebooks”, all lower case) are documents produced by the Jupyter
  Notebook App, which contain both computer code (e.g. python) and rich text elements
-  (paragraph, equations, figures, links, etc…). Notebook documents are both human-readable
-   documents containing the analysis description and the results (figures, tables, etc..)
+  (paragraph, equations, figures, links, etc.). Notebook documents are both human-readable
+   documents containing the analysis description and the results (figures, tables, etc.)
     as well as executable documents which can be run to perform data analysis. 
 
 So why not combine such great tools together. As an example, I'll adopt one of my iPython
  notebooks, made by me during Statistics course in 2016.
 
 ---
-*Problem instructions*
+**Problem instructions**
 
 In this task we have to check the work of the central limit theorem, and also work with
  the generation of random numbers and the construction of graphs in Python.
@@ -41,12 +41,9 @@ Describe the difference between the distributions obtained for different values 
  will be to determine how the accuracy of the approximation of the distribution of sample means is
   normal with increasing n.
 
----
-
-$$a^2 + b^2 = c^2$$
-
 **Solution:**
 
+$$a^2 + b^2 = c^2$$
 
 ```python
 %matplotlib inline
