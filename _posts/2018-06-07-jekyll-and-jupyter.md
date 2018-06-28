@@ -43,8 +43,6 @@ Describe the difference between the distributions obtained for different values 
 
 **Solution:**
 
-$$a^2 + b^2 = c^2$$
-
 ```python
 %matplotlib inline
 
