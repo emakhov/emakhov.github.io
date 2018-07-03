@@ -14,5 +14,7 @@ I was born in Moscow in 1994. Successfully finished Lyceum №1568
   University (ex Moscow State University of Radioengineering, Electronics
    and Automation) on single circle Master programme.
 
+Currently, I'm doing my second Master in Politecnico di Milano.
+ My main interests are Machine Learning, Deep Learning and Computer Vision.
 
 *Welcome to my website. Hope you'll find something interesting.*
